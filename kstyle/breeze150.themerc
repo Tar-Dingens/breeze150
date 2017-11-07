@@ -1,12 +1,12 @@
 [Misc]
-Name=Breeze
+Name=Breeze 150
 Name[ar]=نسيم
 Name[bs]=Breeze
 Name[ca]=Brisa
 Name[ca@valencia]=Brisa
 Name[cs]=Breeze
 Name[da]=Breeze
-Name[de]=Breeze
+Name[de]=Breeze 150
 Name[el]=Breeze
 Name[en_GB]=Breeze
 Name[es]=Brisa
@@ -43,14 +43,14 @@ Name[x-test]=xxBreezexx
 Name[zh_CN]=微风
 Name[zh_TW]=Breeze
 ConfigPage=kstyle_breeze_config
-Comment=Widget style for KDE Frameworks
+Comment=Widget style for KDE Frameworks - 150% scaling
 Comment[ar]=نمط ودجات أُطر عمل كدي
 Comment[bs]=Stil kontrola za KDE Frameworks
 Comment[ca]=Estil pels estris dels Frameworks del KDE
 Comment[ca@valencia]=Estil pels estris dels Frameworks del KDE
 Comment[cs]=Styl widgetu pro KDE Frameworks
 Comment[da]=Kontrolstil til KDE Frameworks
-Comment[de]=Stil der Bedienelemente für KDE Frameworks
+Comment[de]=Stil der Bedienelemente für KDE Frameworks - 150% Skalierung
 Comment[el]=Στιλ γραφικών συστατικών για το KDE Frameworks
 Comment[en_GB]=Widget style for KDE Frameworks
 Comment[es]=Estilo de elementos gráficos para KDE Frameworks
@@ -86,4 +86,4 @@ Comment[x-test]=xxWidget style for KDE Frameworksxx
 Comment[zh_CN]=KDE Frameworks 的部件样式
 Comment[zh_TW]=KDE Frameworks 的元件樣式
 [KDE]
-WidgetStyle=Breeze
+WidgetStyle=Breeze150

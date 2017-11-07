@@ -145,25 +145,25 @@ set(breeze_PART_SRCS
 if(BREEZE_USE_KDE4)
 
   kde4_add_kcfg_files(breeze_PART_SRCS breezestyleconfigdata.kcfgc)
-  kde4_add_plugin(breeze ${breeze_PART_SRCS} kstylekde4compat.cpp)
-  target_link_libraries(breeze  ${KDE4_KDEUI_LIBS})
+  kde4_add_plugin(breeze150 ${breeze_PART_SRCS} kstylekde4compat.cpp)
+  target_link_libraries(breeze150  ${KDE4_KDEUI_LIBS})
 
   if(BREEZE_HAVE_X11)
-    target_link_libraries(breeze ${X11_XCB_LIBRARIES})
-    target_link_libraries(breeze ${XCB_LIBRARIES})
+    target_link_libraries(breeze150 ${X11_XCB_LIBRARIES})
+    target_link_libraries(breeze150 ${XCB_LIBRARIES})
   endif()
 
-  install(TARGETS breeze  DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/styles/)
+  install(TARGETS breeze150  DESTINATION ${PLUGIN_INSTALL_DIR}/plugins/styles/)
 
 else()
 
   kconfig_add_kcfg_files(breeze_PART_SRCS breezestyleconfigdata.kcfgc)
-  add_library(breeze MODULE ${breeze_PART_SRCS})
-  target_link_libraries(breeze Qt5::Core Qt5::Gui Qt5::Widgets Qt5::DBus Qt5::Quick)
-  target_link_libraries(breeze KF5::ConfigCore KF5::ConfigWidgets KF5::GuiAddons KF5::WindowSystem)
+  add_library(breeze150 MODULE ${breeze_PART_SRCS})
+  target_link_libraries(breeze150 Qt5::Core Qt5::Gui Qt5::Widgets Qt5::DBus Qt5::Quick)
+  target_link_libraries(breeze150 KF5::ConfigCore KF5::ConfigWidgets KF5::GuiAddons KF5::WindowSystem)
 
   if( KF5FrameworkIntegration_FOUND )
-  target_link_libraries(breeze KF5::Style)
+  target_link_libraries(breeze150 KF5::Style)
   endif()
 
   if (WIN32)
@@ -173,20 +173,17 @@ else()
   endif()
 
   if(BREEZE_HAVE_X11)
-    target_link_libraries(breeze ${XCB_LIBRARIES})
-    target_link_libraries(breeze Qt5::X11Extras)
+    target_link_libraries(breeze150 ${XCB_LIBRARIES})
+    target_link_libraries(breeze150 Qt5::X11Extras)
   endif()
 
   if(BREEZE_HAVE_KWAYLAND)
-    target_link_libraries(breeze KF5::WaylandClient)
+    target_link_libraries(breeze150 KF5::WaylandClient)
   endif()
 
-  install(TARGETS breeze DESTINATION ${QT_PLUGIN_INSTALL_DIR}/styles/)
+  install(TARGETS breeze150 DESTINATION ${QT_PLUGIN_INSTALL_DIR}/styles/)
 
 endif()
 
 ########### install files ###############
-install(FILES breeze.themerc  DESTINATION  ${DATA_INSTALL_DIR}/kstyle/themes)
-
-########### subdirectories ###############
-add_subdirectory(config)
+install(FILES breeze150.themerc  DESTINATION  ${DATA_INSTALL_DIR}/kstyle/themes)

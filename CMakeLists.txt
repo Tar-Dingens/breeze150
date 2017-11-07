@@ -20,7 +20,6 @@ else()
   include(KDECMakeSettings)
   include(KDECompilerSettings NO_POLICY_SCOPE)
   include(GenerateExportHeader)
-  include(GtkUpdateIconCache)
 
   add_subdirectory(kstyle)
   

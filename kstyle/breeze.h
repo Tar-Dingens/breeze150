@@ -58,114 +58,114 @@ namespace Breeze
         Frame_FrameRadius = 3,
 
         // layout
-        Layout_TopLevelMarginWidth = 10,
-        Layout_ChildMarginWidth = 6,
-        Layout_DefaultSpacing = 6,
+        Layout_TopLevelMarginWidth = 15,
+        Layout_ChildMarginWidth = 9,
+        Layout_DefaultSpacing = 9,
 
         // line editors
-        LineEdit_FrameWidth = 6,
+        LineEdit_FrameWidth = 9,
 
         // menu items
         Menu_FrameWidth = 0,
-        MenuItem_MarginWidth = 3,
-        MenuItem_ItemSpacing = 4,
-        MenuItem_AcceleratorSpace = 16,
-        MenuButton_IndicatorWidth = 20,
+        MenuItem_MarginWidth = 5,
+        MenuItem_ItemSpacing = 6,
+        MenuItem_AcceleratorSpace = 24,
+        MenuButton_IndicatorWidth = 30,
 
         // combobox
-        ComboBox_FrameWidth = 6,
+        ComboBox_FrameWidth = 9,
 
         // spinbox
         SpinBox_FrameWidth = LineEdit_FrameWidth,
-        SpinBox_ArrowButtonWidth = 20,
+        SpinBox_ArrowButtonWidth = 30,
 
         // groupbox title margin
-        GroupBox_TitleMarginWidth = 4,
+        GroupBox_TitleMarginWidth = 9,
 
         // buttons
-        Button_MinWidth = 80,
-        Button_MarginWidth = 6,
-        Button_ItemSpacing = 4,
+        Button_MinWidth = 120,
+        Button_MarginWidth = 9,
+        Button_ItemSpacing = 6,
 
         // tool buttons
-        ToolButton_MarginWidth = 6,
-        ToolButton_ItemSpacing = 4,
-        ToolButton_InlineIndicatorWidth = 12,
+        ToolButton_MarginWidth = 9,
+        ToolButton_ItemSpacing = 6,
+        ToolButton_InlineIndicatorWidth = 18,
 
         // checkboxes and radio buttons
-        CheckBox_Size = 20,
-        CheckBox_FocusMarginWidth = 2,
-        CheckBox_ItemSpacing = 4,
+        CheckBox_Size = 25,
+        CheckBox_FocusMarginWidth = 4,
+        CheckBox_ItemSpacing = 6,
 
         // menubar items
-        MenuBarItem_MarginWidth = 10,
-        MenuBarItem_MarginHeight = 6,
+        MenuBarItem_MarginWidth = 15,
+        MenuBarItem_MarginHeight = 9,
 
         // scrollbars
-        ScrollBar_Extend = 20,
-        ScrollBar_SliderWidth = 6,
-        ScrollBar_MinSliderHeight = 20,
+        ScrollBar_Extend = 30,
+        ScrollBar_SliderWidth = 9,
+        ScrollBar_MinSliderHeight = 30,
         ScrollBar_NoButtonHeight = (ScrollBar_Extend-ScrollBar_SliderWidth)/2,
         ScrollBar_SingleButtonHeight = ScrollBar_Extend,
         ScrollBar_DoubleButtonHeight = 2*ScrollBar_Extend,
 
         // toolbars
-        ToolBar_FrameWidth = 2,
-        ToolBar_HandleExtent = 10,
-        ToolBar_HandleWidth = 6,
-        ToolBar_SeparatorWidth = 8,
-        ToolBar_ExtensionWidth = 20,
+        ToolBar_FrameWidth = 3,
+        ToolBar_HandleExtent = 15,
+        ToolBar_HandleWidth = 9,
+        ToolBar_SeparatorWidth = 12,
+        ToolBar_ExtensionWidth = 30,
         ToolBar_ItemSpacing = 0,
 
         // progressbars
-        ProgressBar_BusyIndicatorSize = 14,
-        ProgressBar_Thickness = 6,
-        ProgressBar_ItemSpacing = 4,
+        ProgressBar_BusyIndicatorSize = 21,
+        ProgressBar_Thickness = 9,
+        ProgressBar_ItemSpacing = 6,
 
         // mdi title bar
-        TitleBar_MarginWidth = 4,
+        TitleBar_MarginWidth = 6,
 
         // sliders
-        Slider_TickLength = 8,
-        Slider_TickMarginWidth = 2,
-        Slider_GrooveThickness = 6,
-        Slider_ControlThickness = 20,
+        Slider_TickLength = 12,
+        Slider_TickMarginWidth = 3,
+        Slider_GrooveThickness = 9,
+        Slider_ControlThickness = 30,
 
         // tabbar
-        TabBar_TabMarginHeight = 4,
-        TabBar_TabMarginWidth = 8,
-        TabBar_TabMinWidth = 80,
-        TabBar_TabMinHeight = 28,
-        TabBar_TabItemSpacing = 8,
-        TabBar_TabOverlap = 1,
-        TabBar_BaseOverlap = 2,
+        TabBar_TabMarginHeight = 6,
+        TabBar_TabMarginWidth = 12,
+        TabBar_TabMinWidth = 120,
+        TabBar_TabMinHeight = 42,
+        TabBar_TabItemSpacing = 12,
+        TabBar_TabOverlap = 2,
+        TabBar_BaseOverlap = 3,
 
         // tab widget
-        TabWidget_MarginWidth = 4,
+        TabWidget_MarginWidth = 6,
 
         // toolbox
-        ToolBox_TabMinWidth = 80,
-        ToolBox_TabItemSpacing = 4,
-        ToolBox_TabMarginWidth = 8,
+        ToolBox_TabMinWidth = 120,
+        ToolBox_TabItemSpacing = 6,
+        ToolBox_TabMarginWidth = 12,
 
         // tooltips
-        ToolTip_FrameWidth = 3,
+        ToolTip_FrameWidth = 5,
 
         // list headers
-        Header_MarginWidth = 6,
-        Header_ItemSpacing = 4,
-        Header_ArrowSize = 10,
+        Header_MarginWidth = 9,
+        Header_ItemSpacing = 6,
+        Header_ArrowSize = 15,
 
         // tree view
-        ItemView_ArrowSize = 10,
-        ItemView_ItemMarginWidth = 3,
-        SidePanel_ItemMarginWidth = 4,
+        ItemView_ArrowSize = 15,
+        ItemView_ItemMarginWidth = 5,
+        SidePanel_ItemMarginWidth = 6,
 
         // splitter
         Splitter_SplitterWidth = 1,
 
         // shadow dimensions
-        Shadow_Overlap = 2
+        Shadow_Overlap = 3
 
     };
 

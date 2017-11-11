@@ -908,7 +908,7 @@ namespace Breeze
             painter->setBrush( color );
             painter->setPen( Qt::NoPen );
 
-            const QRectF markerRect( frameRect.adjusted( 3, 3, -3, -3 ) );
+            const QRectF markerRect( frameRect.adjusted( 5, 5, -5, -5 ) );
             painter->drawRect( markerRect );
 
         } else if( state == CheckPartial ) {
@@ -917,7 +917,7 @@ namespace Breeze
             pen.setJoinStyle( Qt::MiterJoin );
             painter->setPen( pen );
 
-            const QRectF markerRect( frameRect.adjusted( 4, 4, -4, -4 ) );
+            const QRectF markerRect( frameRect.adjusted( 6, 6, -6, -6 ) );
             painter->drawRect( markerRect );
 
             painter->setPen( Qt::NoPen );
@@ -1012,7 +1012,7 @@ namespace Breeze
             painter->setBrush( color );
             painter->setPen( Qt::NoPen );
 
-            const QRectF markerRect( frameRect.adjusted( 3, 3, -3, -3 ) );
+            const QRectF markerRect( frameRect.adjusted( 5, 5, -5, -5 ) );
             painter->drawEllipse( markerRect );
 
         } else if( state == RadioAnimated ) {

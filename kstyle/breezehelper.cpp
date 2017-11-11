@@ -1311,10 +1311,10 @@ namespace Breeze
         QPolygonF arrow;
         switch( orientation )
         {
-            case ArrowUp: arrow << QPointF( -4, 2 ) << QPointF( 0, -2 ) << QPointF( 4, 2 ); break;
-            case ArrowDown: arrow << QPointF( -4, -2 ) << QPointF( 0, 2 ) << QPointF( 4, -2 ); break;
-            case ArrowLeft: arrow << QPointF( 2, -4 ) << QPointF( -2, 0 ) << QPointF( 2, 4 ); break;
-            case ArrowRight: arrow << QPointF( -2, -4 ) << QPointF( 2, 0 ) << QPointF( -2, 4 ); break;
+            case ArrowUp: arrow << QPointF( -5, 3 ) << QPointF( 0, -3 ) << QPointF( 5, 3 ); break;
+            case ArrowDown: arrow << QPointF( -5, -3 ) << QPointF( 0, 3 ) << QPointF( 5, -3 ); break;
+            case ArrowLeft: arrow << QPointF( 3, -5 ) << QPointF( -3, 0 ) << QPointF( 3, 5 ); break;
+            case ArrowRight: arrow << QPointF( -3, -5 ) << QPointF( 3, 0 ) << QPointF( -3, 5 ); break;
             default: break;
         }
 
@@ -1322,7 +1322,7 @@ namespace Breeze
         painter->setRenderHints( QPainter::Antialiasing );
         painter->translate( QRectF( rect ).center() );
         painter->setBrush( Qt::NoBrush );
-        painter->setPen( QPen( color, 1.1 ) );
+        painter->setPen( QPen( color, 1.65 ) );
         painter->drawPolyline( arrow );
         painter->restore();
 
